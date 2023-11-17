@@ -1,6 +1,6 @@
 const express = require('express');
 const cors = require('cors');
-const Router = require('./watchlistRoute');
+const Router = require('./Router/watchlistRoute');
 const port = 4000;
 
 const app = express();
